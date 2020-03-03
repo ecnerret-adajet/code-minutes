@@ -98,7 +98,7 @@ Pull project resource from your github repository
 ```yaml
 sudo git clone git@github.com{user}/{repo}.git /var/www/html/site
 ```
-Once you successfully copy the repo. make sure to install all of laravel's packages.
+Once you successfully copied the repo. make sure to install all of laravel's packages.
 **Note:** Make sure your on your site directory (`\var\www\html\site`).
 {: .notice--danger}
 ```yaml
