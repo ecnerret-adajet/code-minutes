@@ -33,7 +33,7 @@ export default {
 ```
 
 ### 3. Transport the event to component-b
-After we register the `EVENT_NAME` to EventBus payload. it's now time to transport the data to our desire component. for this example,
+After we registered the `EVENT_NAME` to EventBus payload. it's now time to transport the data to our desired component. for this example, see below.
 ```javascript
 // component-b.js
 import EventBus from '../EventBus'
@@ -49,6 +49,6 @@ export default {
     }
 }
 ```
-As simple as that. what we did from script above was get the Object from `mounted()` hook in order to load the `EVENT_NAME` payload into the component-b.js immediately.
+As simple as that. what we did was to load the passed Object through `mounted()` hook into the `fruits` data array.
 
 So that's it. happy coding!!
